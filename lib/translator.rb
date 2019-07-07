@@ -17,10 +17,11 @@ def load_library(path)
   return emos
 end
 
-def get_japanese_emoticon(english)
+def get_japanese_emoticon(path, english)
   # code goes here
+  library = load_library(path)
 end
 
-def get_english_meaning(japanese)
+def get_english_meaning(path, japanese)
   # code goes here
 end

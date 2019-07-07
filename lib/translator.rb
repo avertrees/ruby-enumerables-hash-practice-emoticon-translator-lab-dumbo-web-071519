@@ -20,8 +20,10 @@ end
 def get_japanese_emoticon(path, english)
   # code goes here
   library = load_library(path)
+  return library["get_emoticon"][english]
 end
 
 def get_english_meaning(path, japanese)
   # code goes here
+  library = load_library(path)
 end

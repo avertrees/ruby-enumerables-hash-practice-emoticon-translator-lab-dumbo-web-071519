@@ -10,8 +10,8 @@ def load_library(path)
   emoticons[:get_emoticon] = {}
   
   emoticons.each do |key, value|
-    emoticons[:get_meaning][value[1]] = value
-    emoticons
+    emoticons[:get_meaning][value[1]] = key
+    emoticons[:get_emoticon][]
   end
   puts emoticons
   return emoticons

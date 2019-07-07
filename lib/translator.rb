@@ -26,4 +26,5 @@ end
 def get_english_meaning(path, japanese)
   # code goes here
   library = load_library(path)
+  return library["get_meaning"][japanese]
 end
